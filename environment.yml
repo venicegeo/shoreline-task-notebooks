@@ -1,0 +1,122 @@
+name: dg-shoreline-task-notebook
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- bleach=1.4.2=py27_0
+- appnope=0.1.0=py27_0
+- backports.shutil_get_terminal_size=1.0.0=py27_1
+- backports_abc=0.5=py27_0
+- certifi=2017.7.27.1=py27_0
+- configparser=3.5.0=py27_0
+- decorator=4.1.2=py27_0
+- entrypoints=0.2.3=py27_1
+- enum34=1.1.6=py27_1
+- functools32=3.2.3.2=py27_1
+- html5lib=0.999999999=py27_0
+- ipykernel=4.6.1=py27_0
+- ipyleaflet=0.3.0=py27_0
+- ipython=5.4.1=py27_0
+- ipython_genutils=0.2.0=py27_0
+- ipywidgets=6.0.0=py27_0
+- jinja2=2.9.5=py27_0
+- jsonschema=2.5.1=py27_0
+- jupyter_client=5.1.0=py27_0
+- jupyter_core=4.3.0=py27_0
+- libsodium=1.0.10=0
+- markupsafe=1.0=py27_0
+- mistune=0.7.4=py27_0
+- nbconvert=5.2.1=py27_1
+- nbformat=4.3.0=py27_0
+- notebook=5.0.0=py27_0
+- pandoc=1.19.2=0
+- pandocfilters=1.4.1=py27_0
+- pathlib2=2.3.0=py27_0
+- pexpect=4.2.1=py27_0
+- pickleshare=0.7.3=py27_0
+- prompt_toolkit=1.0.14=py27_0
+- ptyprocess=0.5.2=py27_0
+- pygments=2.2.0=py27_0
+- python-dateutil=2.6.1=py27_0
+- pyzmq=16.0.2=py27_2
+- scandir=1.5=py27_1
+- simplegeneric=0.8.1=py27_0
+- singledispatch=3.4.0.3=py27_0
+- ssl_match_hostname=3.5.0.1=py27_1
+- terminado=0.6=py27_0
+- testpath=0.3=py27_0
+- tornado=4.5.1=py27_0
+- traitlets=4.3.2=py27_0
+- wcwidth=0.1.7=py27_0
+- webencodings=0.5=py27_0
+- widgetsnbextension=2.0.0=py27_0
+- zeromq=4.2.1=1
+- click=6.7=py27_0
+- click-plugins=1.0.3=py27_0
+- cligj=0.4.0=py27_0
+- curl=7.49.0=1
+- geos=3.5.0=0
+- geotiff=1.4.1=0
+- hdf4=4.2.12=1
+- hdf5=1.8.17=2
+- jbig=2.1=0
+- jpeg=9b=0
+- kealib=1.4.6=0
+- libgdal=2.1.0=0
+- libnetcdf=4.4.1=1
+- libtiff=4.0.6=3
+- mkl=2017.0.3=0
+- munch=2.1.1=py27_0
+- numpy=1.13.1=py27_0
+- openssl=1.0.2l=0
+- pip=9.0.1=py27_1
+- proj4=4.9.2=0
+- python=2.7.13=0
+- readline=6.2=2
+- setuptools=27.2.0=py27_0
+- six=1.10.0=py27_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py27_0
+- xerces-c=3.1.4=0
+- xz=5.2.2=1
+- zlib=1.2.8=3
+- pip:
+  - affine==2.1.0
+  - asn1crypto==0.22.0
+  - backports-abc==0.5
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.5.0.1
+  - boto==2.39.0
+  - cffi==1.10.0
+  - cloudpickle==0.3.1
+  - cryptography==2.0.2
+  - dask==0.13.0
+  - ephem==3.7.6.0
+  - Fiona==1.7.8
+  - future==0.15.2
+  - gbdx-auth==0.2.4
+  - gbdxtools==0.11.14
+  - geomet==0.1.1
+  - idna==2.5
+  - ipaddress==1.0.18
+  - ipython-genutils==0.2.0
+  - jupyter-client==5.1.0
+  - jupyter-core==4.3.0
+  - ndg-httpsclient==0.4.2
+  - oauthlib==2.0.2
+  - prompt-toolkit==1.0.14
+  - pycparser==2.18
+  - pycurl==7.43.0
+  - pygeoif==0.6
+  - pyjwt==1.4.2
+  - pyopenssl==17.2.0
+  - pyparsing==2.2.0
+  - pyproj==1.9.5.1
+  - rasterio==1.0a9
+  - requests==2.12.1
+  - requests-oauthlib==0.8.0
+  - shapely==1.6b4
+  - snuggs==1.4.1
+  - toolz==0.8.2
